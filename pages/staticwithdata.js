@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useState } from "react";
 
 export default function Users(){
@@ -13,14 +14,19 @@ export default function Users(){
     },[])
 
     return (
-        <ul>
-            {users.map(user => (
-                <li key={user.id}>
-                    <h4>{user.name}</h4>
-                    <img src={user.avatar} alt="avatar" />
-                    <p>{user.detail}</p>
-                </li>
-            ))}
-        </ul>
+        <>
+            <Head>
+                <title>Static With Data</title>
+            </Head>
+            <ul>
+                {users.map(user => (
+                    <li key={user.id}>
+                        <h4>{user.name}</h4>
+                        <img src={user.avatar} alt="avatar" />
+                        <p>{user.detail}</p>
+                    </li>
+                ))}
+            </ul>
+        </>
     );
 };

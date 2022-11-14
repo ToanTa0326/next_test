@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect, useState } from "react";
 import styles from "../styles/users.module.css";
 
@@ -15,22 +16,27 @@ export default function Users(){
     },[type])
 
     return (
-        <div>
-            <div className={styles.list}>
-                <button onClick={() => setType('users')}>users</button>
-                <button onClick={() => setType('blogs')}>blogs</button>
-                <button onClick={() => setType('comments')}>comments</button>
-                <button onClick={() => setType('likes')}>likes</button>
+        <>
+            <Head>
+                <title>Server</title>
+            </Head>
+            <div>
+                <div className={styles.list}>
+                    <button onClick={() => setType('users')}>users</button>
+                    <button onClick={() => setType('blogs')}>blogs</button>
+                    <button onClick={() => setType('comments')}>comments</button>
+                    <button onClick={() => setType('likes')}>likes</button>
+                </div>
+                <ul className={styles.list}>
+                    {data?.map(data => (
+                        <li key={data.id}>
+                            <h4>{data.name}</h4>
+                            {data?.avatar? <img src={data.avatar} alt="avatar" /> : null}
+                            <p>{data.detail}</p>
+                        </li>
+                    ))}
+                </ul>
             </div>
-            <ul className={styles.list}>
-                {data?.map(data => (
-                    <li key={data.id}>
-                        <h4>{data.name}</h4>
-                        {data?.avatar? <img src={data.avatar} alt="avatar" /> : null}
-                        <p>{data.detail}</p>
-                    </li>
-                ))}
-            </ul>
-        </div>
+        </>
     );
 };
