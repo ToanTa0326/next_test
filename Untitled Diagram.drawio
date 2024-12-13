@@ -594,7 +594,7 @@
         <mxCell id="OXKtansxvhe07wX5v9O6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OXKtansxvhe07wX5v9O6-4" target="OXKtansxvhe07wX5v9O6-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OXKtansxvhe07wX5v9O6-4" value="2&lt;div&gt;server core&lt;br&gt;(window server 2016)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OXKtansxvhe07wX5v9O6-4" value="2&lt;div&gt;server core&lt;br&gt;(Window server 2016)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OXKtansxvhe07wX5v9O6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OXKtansxvhe07wX5v9O6-5" target="OXKtansxvhe07wX5v9O6-8">
