@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1919" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -659,6 +659,86 @@
         </mxCell>
         <mxCell id="OXKtansxvhe07wX5v9O6-27" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="1100" y="224.25" width="145.24" height="91.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u0NeWLdsq0A5Siw5Fhcc" name="Page-4">
+    <mxGraphModel dx="1627" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-1" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-2" target="NZHzo38AXVYxLW0GmSy5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-2" target="NZHzo38AXVYxLW0GmSy5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-2" target="NZHzo38AXVYxLW0GmSy5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-2" value="ProxySQL&lt;br&gt;(Port 6033)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-3" target="NZHzo38AXVYxLW0GmSy5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-3" value="MySQL - Master&lt;br&gt;(Port 3306)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-5" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="NZHzo38AXVYxLW0GmSy5-7" target="NZHzo38AXVYxLW0GmSy5-8" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-7" target="NZHzo38AXVYxLW0GmSy5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-7" target="NZHzo38AXVYxLW0GmSy5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-7" value="ProxySQL&lt;br&gt;(Port 6033)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-8" target="NZHzo38AXVYxLW0GmSy5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-8" target="NZHzo38AXVYxLW0GmSy5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-8" value="MySQL - Master&lt;br&gt;(Port 3306)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-9" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="190" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="NZHzo38AXVYxLW0GmSy5-11" target="NZHzo38AXVYxLW0GmSy5-12" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-11" target="NZHzo38AXVYxLW0GmSy5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-11" target="NZHzo38AXVYxLW0GmSy5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-11" value="ProxySQL&lt;br&gt;(Port 6033)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZHzo38AXVYxLW0GmSy5-12" target="NZHzo38AXVYxLW0GmSy5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-12" value="MySQL - Master&lt;br&gt;(Port 3306)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="815" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-23" value="Replicate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZHzo38AXVYxLW0GmSy5-24" value="Replicate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="430" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
