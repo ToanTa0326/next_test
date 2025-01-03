@@ -903,7 +903,7 @@
         <mxCell id="kV1imb-xhwfN_og0gHyD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="kV1imb-xhwfN_og0gHyD-20" target="kV1imb-xhwfN_og0gHyD-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kV1imb-xhwfN_og0gHyD-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;blocked&lt;br&gt;container&lt;br&gt;(172.18.10.3)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kV1imb-xhwfN_og0gHyD-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;blocked&lt;br&gt;container&lt;br&gt;(172.18.10.4)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="360" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
